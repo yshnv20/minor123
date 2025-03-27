@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>success</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h4><p><strong>Name:</strong> {{ passenger.username }}</h4>
+    <p><strong>Phone Number:</strong> {{ passenger.phone_number }}</p>
+    <p><strong>Date of Birth:</strong> {{ passenger.date_of_birth }}</p>
+    <h1>booked succesfully</h1>
+    <a href="{% url 'home' %}">Back to Home</a>
+</body>
+</html>
